@@ -118,7 +118,7 @@ const changeWallpaper = () => {
 
 const setWallpaper = () => {
     const chat = document.querySelector('#main');
-    const defautlWallpaper = document.querySelector('._27lSL');
+    const defautlWallpaper = document.querySelector('.vWC3x');
 
     chrome.storage.local.get('linkWallpaper', function(result){
         if(result.linkWallpaper){
@@ -150,7 +150,7 @@ const createButton = () => {
     const resetWallpaper = document.createElement('ul');
     const uploadImage = document.createElement('input');
 
-    button.setAttribute("src", "https://gemolstpc.ga/reload.svg");
+    button.setAttribute("src", "https://raw.githubusercontent.com/diogenesdie/whatsappWallpaperChangerExtension/d1cc534af9ac0e4b2869c3fd201272853d469d74/reload.svg");
     button.setAttribute("class", "change-wallpaper");
 
     uploadImage.setAttribute("type", "file");

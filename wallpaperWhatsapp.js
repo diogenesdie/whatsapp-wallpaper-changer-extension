@@ -118,7 +118,7 @@ const changeWallpaper = () => {
 
 const setWallpaper = () => {
     const chat = document.querySelector('#main');
-    const defautlWallpaper = document.querySelector('.vWC3x');
+    const defautlWallpaper = document.querySelector('.IeYBo');
 
     chrome.storage.local.get('linkWallpaper', function(result){
         if(result.linkWallpaper){
